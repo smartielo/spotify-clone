@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/style.css'; // Assuming you have a CSS file for styling
+import Header from '../components/header';
 
 
-const dashboard = () => {
+const Dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
-      <p>Welcome to the dashboard!</p>
+    <div className='dash_pai'>
+        <Header />
     </div>
   );
 }
 
-export default dashboard;
+export default Dashboard;
